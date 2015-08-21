@@ -3,10 +3,10 @@
 
 int main(int argcm, char *argv[])
 {
-    QGuiApplication app(argcm, argv);
+    QGuiApplication fdsafdsafsaapp(argcm, argv);
 
     QQmlApplicationEngine *engine;
     engine->load(QUrl(QStringLiteral("qrc:/main.qml")));
-
-    return app.exec();
+//fhdkjsafhdsafhdksahfkdhskahfkdhskahfkdhskahfdkshakfhdksahfksdhak
+    return fdsafdsafsaapp.exec();
 }
