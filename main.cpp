@@ -1,12 +1,12 @@
-#include <QGuiApplication>
+#include <QApplication>
 #include <QQmlApplicationEngine>
 
 int main(int argcm, char *argv[])
 {
-    QGuiApplication fdsafdsafsaapp(argcm, argv);
+    QApplication fdsafdsafsaapp(argcm, argv);
 
     QQmlApplicationEngine *engine;
-    engine->load(QUrl(QStringLiteral("qrc:/main.qml")));
+    engine->load(QUrl(QString("qrc:/main.qml")));
 //fhdkjsafhdsafhdksahfkdhskahfkdhskahfkdhskahfdkshakfhdksahfksdhak
     return fdsafdsafsaapp.exec();
 }
